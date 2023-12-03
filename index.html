@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Трты на заказ</title>
+    <link rel="icon" href="img/icons/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto+Condensed:100'>
+
+      <link rel="stylesheet" href="css/slider.css">
+      <link rel="stylesheet" href="css/topmenu.css">
+      <link rel="stylesheet" href="css/sliderpc.css">
+      <link rel="stylesheet" href="css/components.css">
+      
+</head>
+
+<body>
+
+  <!-- прелоадер -->
+
+  <div class="preloader">
+    <div class="preloader__row">
+      <div class="preloader__item"></div>
+      <div class="preloader__item"></div>
+    </div>
+  </div>
+
+    
+    <!-- меню -->
+    
+    <header class="header-page">
+      <div class="container header-page__container">
+        <div class="header-page__start">
+          <div class="logo">
+            <img class="logo__img" src="img/icons/logo-nav.png" alt="">
+          </div>
+        </div>
+        <div class="header-page__end">
+          <nav class="header-page__nav">
+            <ul class="header-page__ul">
+              <li class="header-page__li">
+                <a class="header-page__link" href="cakes.html">
+                  <span class="header-page__text">Торты</span>
+                </a>
+              </li>
+              <li class="header-page__li">
+                <a class="header-page__link" href="pastries.html">
+                  <span class="header-page__text">Пирожные и кексы</span>
+                </a>
+              </li>
+              <li class="header-page__li">
+                <a class="header-page__link" href="contacts.html">
+                  <span class="header-page__text">Выпечка на заказ</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="phone">
+            <a class="phone__item header-page__phone" href="tel:+79000000001">+7 (900) 000-00-01</a>
+          </div>
+          <div class="header-page__hamburger">
+            <button class="btn-menu" type="button">
+              <span class="btn-menu__box">
+                <span class="btn-menu__inner"></span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- мобильное меню -->
+
+    <header class="header">
+      <div class="hamburger">
+        <button class="button hamburger__button js-menu__toggle">
+          <span class="hamburger__label">Меню</span>
+        </button>
+      </div>
+      <nav class="menu"><a></a>
+        <ul class="list menu__list">
+          <li class="menu__group">
+            <a href="cakes.html" class="link menu__link">Торты</a>
+          </li>
+          <li class="menu__group">
+            <a href="pastries.html" class="link menu__link">Пирожные и кексы</a>
+          </li>
+          <li class="menu__group">
+            <a href="contacts.html" class="link menu__link">Выпечка на заказ</a>
+          </li>
+          <li class="menu__group">
+          <div class="phone">
+            <a class="phone__item header-page__phone" href="tel:+79000000001" width="100%" >+7 (900) 000-00-01</a>
+          </div>
+        </li>
+        </ul>
+      </nav>
+    </header>
+
+    
+    <!-- слайдер -->
+
+    <div class="split-slideshowpc">
+      <div class="slideshow">
+        <div class="slider">
+          <div class="item">
+            <img src="img/slider/sl1.jpg" />
+          </div>
+          <div class="item">
+            <img src="img/slider/sl0.png" />
+          </div>
+          <div class="item">
+            <img src="img/slider/sssl1.jpg" />
+          </div>
+        </div>
+      </div>
+      <div class="slideshow-text">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+      </div>
+    </div>
+    
+
+    <!-- мобильный слайдер -->
+
+    <div class="split-slideshowmobile">
+      <div class="slideshow">
+        <div class="slider">
+          <div class="item">
+            <img src="img/slider/ssl3.jpg"/>
+          </div>
+          <div class="item">
+            <img src="img/slider/ssl1r.jpg" />
+          </div>
+          <div class="item">
+            <img src="img/slider/ssl7r.jpg"/>
+          </div>
+          <div class="item">
+            <img src="img/slider/ssl4r.jpg" />
+          </div>
+        </div>
+      </div>
+      <div class="slideshow-text">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+      </div>
+    </div>
+
+
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.12/jquery.mousewheel.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js'></script>
+
+  <script src="js/style.js"></script>  
+  <script src="js/slider.js"></script>
+  <script src="js/topmenu.js"></script>
+
+</body>
+</html>
